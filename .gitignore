@@ -1,6 +1,7 @@
 bin/
 obj/
 .vs/
+.vagrant/
 
 # Output of nng.NETCore.csproj placed in runtimes/any/
 nng.NETCore/runtimes/any/
