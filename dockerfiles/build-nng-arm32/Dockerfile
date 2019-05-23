@@ -8,7 +8,7 @@
 
 FROM jeikabu/debian-build:arm32v7-stretch
 
-ARG NNG_BRANCH=v1.1.1
+ARG NNG_BRANCH=HEAD
 
 RUN git clone https://github.com/nanomsg/nng.git \
     && cd nng && git checkout $NNG_BRANCH
