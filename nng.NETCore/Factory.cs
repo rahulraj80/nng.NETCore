@@ -66,7 +66,7 @@ namespace nng.Tests
 
         public NngResult<ISubAsyncContext<IMessage>> CreateSubAsyncContext(ISocket socket)
         {
-            return SubAsyncContext<IMessage>.Create(this, socket);
+            return SubAsyncCtx<IMessage>.Create(this, socket);
         }
 
         public NngResult<IReqRepAsyncContext<IMessage>> CreateReqRepAsyncContext(ISocket socket)
